@@ -113,7 +113,7 @@ video {
 }
 
 .ckin__overlay--2:before {
-  background: rgba(24, 24, 24, 0.8);
+  background: rgba(0, 0, 24, 0.8);
 }
 
 .default {
@@ -358,7 +358,7 @@ video {
   transition: all .3s;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #242424;
+  background: #000024;
   font-size: 32px;
   -ms-flex-align: center;
       align-items: center;
@@ -509,7 +509,7 @@ video {
   transition: all .3s;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #242424;
+  background: #000024;
   font-size: 32px;
   -ms-flex-align: center;
       align-items: center;
