@@ -179,6 +179,8 @@ players.forEach(function (player) {
         showControls(video);
         playerControls.style.display = "none";
     }
+   
+    window.onload=togglePlay(this, player);
 
     video.addEventListener('click', function () {
         togglePlay(this, player);
