@@ -174,6 +174,8 @@ players.forEach(function (player) {
     var ranges = player.querySelectorAll('.' + skin + '__slider');
     var volumeButton = player.querySelector('.volume');
     var fullScreenButton = player.querySelector('.fullscreen');
+   
+    togglePlay(video, player);
 
     if (obj.browserName === "IE" && (obj.browserVersion === 8 || obj.browserVersion === 9)) {
         showControls(video);
